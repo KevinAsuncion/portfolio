@@ -6,8 +6,13 @@ html {
 
 .project img {
     width:100%; 
-    /* border: 8px solid #D9B310 */
+    margin-bottom: 20px;
 }
+
+.project {
+    margin-bottom: 30px;
+}
+
 
 .header-bar {
     display: flex; 
@@ -36,6 +41,7 @@ html {
     max-width: 700px; 
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px; 
 }
 
 .portfolio-container h2{
@@ -81,6 +87,7 @@ button:hover {
 
 .navigation-links li a:hover{
     text-decoration: underline;  
+    color: #d9b310;
 }
 
 .hero {
@@ -113,6 +120,9 @@ i {
     color:white; 
 }
 
+i:hover {
+    color: #d9b310;
+}
 
 footer {
     background-color: #041E42 ;
