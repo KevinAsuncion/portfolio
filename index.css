@@ -25,17 +25,6 @@ html {
     height: 80px;
 }
 
-/* .header-bar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 150px;
-    z-index: 1;
-    overflow-x: hidden;
-    background-color: #0b3c5d
-} */
-
 .portfolio-container {
     width: 80%;
     max-width: 700px; 
@@ -103,15 +92,18 @@ button:hover {
 }
 
 .hero-greeting h1 {
-    margin-top: 0; 
-    margin-bottom: 0; 
-    font-size: 40px; 
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 10px; 
 }
 
 .hero-greeting p {
     margin-top: 0; 
     margin-bottom: 0; 
-    font-size: 24px;
+    font-size: 18px;
+    width: 80%;
     max-width: 800px;
 }
 
@@ -128,6 +120,7 @@ footer {
     background-color: #041E42 ;
     text-align: center; 
     padding: 20px;
+    width: 100%;
 
 }
 footer a {
@@ -135,11 +128,35 @@ footer a {
     margin-left: 15px;
 }
 
-/* @media only screen and (min-width:300px) and (max-width:800px){
-   .modal-content{
-        width: 18rem;
+.git-hub-link {
+    margin-left: 0;
+}
+
+
+@media only screen and (min-width:600px) and (max-width:800px){
+   .hero-greeting p {
+       font-size: 16px;
+       line-height: 40px;
    }
-} */
+   .hero-greeting h1 {
+       font-size: 45px;
+       padding-bottom: 5px; 
+   }
+}
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    .portfolio-container {
+        font-size: 16px;
+    }
+    .hero-greeting p {
+       font-size: 16px;
+       line-height: 35px;
+   }
+   .hero-greeting h1 {
+       font-size: 30px;
+       padding-bottom: 0;
+   }
+}
 
 
 /* #0b3c5d - prussian blue
