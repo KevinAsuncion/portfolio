@@ -4,6 +4,10 @@ html {
     font-size: 20px; 
 }
 
+a {
+    text-decoration: none;
+}
+
 .project img {
     width:100%; 
     margin-bottom: 20px;
@@ -156,6 +160,45 @@ footer a {
        font-size: 30px;
        padding-bottom: 0;
    }
+   footer {
+       padding-left: 0; 
+       padding-right: 0;
+   }
+}
+
+@media only screen and (max-width:350px){
+   .hero-greeting h1 {
+       padding-top: 0;
+       font-size: 18px;
+    }
+    hero {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width:400px){
+    button {
+        display: block;
+        width: 100%;
+    }
+    .hero-greeting p {
+       font-size: 14px;
+       line-height: 0;
+    }
+    .hero-greeting h1 {
+       margin-bottom: 0;
+   }
+}
+
+@media only screen and (max-width:500px){
+    .hero-greeting p {
+       font-size: 16px;
+       line-height: 25px;
+    }
+
+   .hero-greeting h1 {
+       font-size: 28px;
+    }
 }
 
 
