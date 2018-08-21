@@ -47,6 +47,7 @@ button {
     width: 150px;
     height: 45px;
     cursor: pointer;
+    background-color: white; 
     color:#328cc1;
     margin-bottom: 20px;
 }
@@ -120,7 +121,7 @@ i:hover {
     color: #d9b310;
 }
 
-footer {
+#contact {
     background-color: #041E42 ;
     text-align: center; 
     padding: 20px;
