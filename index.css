@@ -17,12 +17,12 @@ a {
     margin-bottom: 30px;
 }
 
-
 .header-bar {
     display: flex; 
     justify-content: space-between;
     background-color: #041E42 ;
     position: fixed; 
+    z-index: 1;
     top: 0; 
     width: 100%; 
     font-family: "Open sans";
@@ -122,6 +122,7 @@ i {
 
 i:hover {
     color: #d9b310;
+    transform: scale(1.2);
 }
 
 footer {
