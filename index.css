@@ -143,7 +143,7 @@ footer a {
 
 @media only screen and (min-width:600px) and (max-width:800px){
    .hero-greeting p {
-       font-size: 16px;
+       font-size: 18px;
        line-height: 30px;
    }
    .hero-greeting h1 {
@@ -188,11 +188,11 @@ footer a {
         width: 100%;
     }
     .hero-greeting p {
-       font-size: 16px;
        line-height: 20px;
     }
     .hero-greeting h1 {
-       margin-bottom: 0;
+        font-size: 24px ;
+        margin-bottom: 0;
    }
    .navigation-links li a {
        font-size: 14px;
@@ -204,6 +204,6 @@ footer a {
        font-size: 16px;
     }
    .hero-greeting h1 {
-       font-size: 24px;
+       font-size: 30px;
     }
 }
