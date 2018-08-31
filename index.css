@@ -152,7 +152,7 @@ footer a {
    }
 }
 
-@media only screen and (min-width:300px) and (max-width:600px){
+@media only screen and (min-width:400px) and (max-width:600px){
     .portfolio-container {
         font-size: 16px;
     }
@@ -161,7 +161,7 @@ footer a {
        line-height: 25px;
    }
    .hero-greeting h1 {
-       font-size: 40px;
+       font-size: 30px;
        padding-bottom: 0;
    }
    footer {
@@ -170,40 +170,38 @@ footer a {
    }
 }
 
-@media only screen and (max-width:350px){
-   .hero-greeting h1 {
-       padding-top:20px;
-       font-size: 20px;
-       line-height: 25px;
-       padding-bottom: 10px;
-    }
-    hero {
-        padding-left: 0;
-    }
-}
-
-@media only screen and (max-width:400px){
+@media only screen and (min-width:350px) and (max-width:400px){
     button {
         display: block;
         width: 100%;
     }
     .hero-greeting p {
+       font-size: 14px;
        line-height: 20px;
     }
     .hero-greeting h1 {
         font-size: 24px ;
-        margin-bottom: 0;
+        padding-bottom: 0px;
    }
    .navigation-links li a {
        font-size: 14px;
    }
 }
 
-@media only screen and (max-width:500px){
-    .hero-greeting p {
-       font-size: 16px;
+@media only screen and (max-width:350px) {
+    .hero-greeting h1 {
+        font-size: 20px;
+         padding-bottom: 0px;
+   }
+   .hero-greeting p {
+       font-size: 14px;
+       line-height: 20px;
     }
-   .hero-greeting h1 {
-       font-size: 30px;
+    button {
+        width: 100%; 
     }
 }
+
+
+
+
